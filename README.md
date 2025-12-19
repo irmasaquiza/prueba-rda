@@ -2,12 +2,12 @@
 
 Sistema de préstamos de libros desarrollado en Laravel.
 
-## 🔗 Repositorio
+## Repositorio
 https://github.com/irmasaquiza/prueba-rda.git
 
 ---
 
-## 📊 Estructura de Base de Datos
+## Estructura de Base de Datos
 
 ### Tabla: `libros`
 
@@ -54,7 +54,7 @@ https://github.com/irmasaquiza/prueba-rda.git
 
 ---
 
-## 🔗 Relaciones
+## Relaciones
 ```
 libros (1) ----< (N) prestamos (N) >---- (1) lectors
 ```
@@ -65,7 +65,7 @@ libros (1) ----< (N) prestamos (N) >---- (1) lectors
 
 ---
 
-## 📝 Reglas de Validación
+## Reglas de Validación
 
 ### Préstamos
 - La `fecha_limite_devolucion` debe ser igual o posterior a la `fecha_prestamo`
@@ -74,7 +74,7 @@ libros (1) ----< (N) prestamos (N) >---- (1) lectors
 
 ---
 
-## 🚀 Instalación
+## Instalación
 ```bash
 # Clonar repositorio
 git clone https://github.com/irmasaquiza/prueba-rda.git
@@ -97,5 +97,5 @@ php artisan serve
 
 ---
 
-## 👤 Autor
-Irma Saquiza
+## Autor
+Ignacio Masaquiza
